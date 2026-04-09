@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doxa — Digital Agency</title>
+  <meta name="description" content="Doxa Digital Agency — bold web experiences built from Kampala to the world. Design, development, branding and Web3." />
+  <meta property="og:title" content="Doxa — Digital Agency" />
+  <meta property="og:description" content="Strategy. Design. Development. We build digital experiences that command attention." />
+  <meta property="og:type" content="website" />
+  <link href="https://api.fontshare.com/v2/css?f[]=boska@400,500,700&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+<a href="#main" class="sr-only">Skip to main content</a>
+
+<!-- MOBILE MENU -->
+<nav class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+  <button class="mobile-menu__close" id="mobileClose" aria-label="Close menu">✕</button>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#services" onclick="closeMobile()">Services</a>
+  
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+  <a href="#contact" onclick="closeMobile()" class="btn btn--primary" style="margin-top:1rem;">Start a Project</a>
+</nav>
+
+<!-- NAV -->
+<header class="nav" id="navbar">
+  <div class="nav__inner">
+    <a href="#" class="nav__logo" aria-label="Doxa Digital Agency home">
+      <img
+        src="https://user-gen-media-assets.s3.amazonaws.com/gemini_images/0609d9e4-f626-40e3-a2f8-c3c73a4586ec.png"
+        alt="Doxa Digital Agency"
+        width="180" height="46"
+        loading="eager" />
+    </a>
+    <ul class="nav__links" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav__actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch theme"></button>
+      <a href="#contact" class="btn btn--primary">Start a Project</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg">
+      <img class="hero__bg-img"
+        src="https://user-gen-media-assets.s3.amazonaws.com/gemini_images/f285b1f9-4971-439b-8095-742f0c35e05a.png"
+        alt="" width="1920" height="1080" />
+      <div class="hero__bg-overlay"></div>
+    </div>
+    <div class="hero__glow"></div>
+    <div class="hero__noise"></div>
+    <div class="hero__content">
+      <div class="hero__eyebrow">Digital Agency — Kampala · Worldwide</div>
+      <h1 class="hero__headline">We build what others <em>can't</em> imagine.</h1>
+      <p class="hero__subline">Doxa crafts bold digital experiences — design, development, and strategy for brands ready to lead.</p>
+      <div class="hero__ctas">
+        <a href="#services" class="btn btn--primary">Our Services</a>
+        <a href="#services" class="btn btn--ghost">What We Do</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span class="ticker__item">Brand Identity</span>
+      <span class="ticker__item">Web Design</span>
+      <span class="ticker__item">UI/UX</span>
+      <span class="ticker__item">Development</span>
+      <span class="ticker__item">Strategy</span>
+      <span class="ticker__item">Motion Design</span>
+      <span class="ticker__item">E-Commerce</span>
+      <span class="ticker__item">Web3 &amp; DApps</span>
+      <span class="ticker__item">SEO &amp; Growth</span>
+      <span class="ticker__item">Brand Identity</span>
+      <span class="ticker__item">Web Design</span>
+      <span class="ticker__item">UI/UX</span>
+      <span class="ticker__item">Development</span>
+      <span class="ticker__item">Strategy</span>
+      <span class="ticker__item">Motion Design</span>
+      <span class="ticker__item">E-Commerce</span>
+      <span class="ticker__item">Web3 &amp; DApps</span>
+      <span class="ticker__item">SEO &amp; Growth</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about__grid fade-in">
+        <div class="about__text">
+          <div class="section-label">About Doxa</div>
+          <h2 class="section-heading">Built for brands that <em>dare</em> to lead.</h2>
+          <p class="about__body">Doxa is an independent digital agency rooted in bold thinking and precise execution. We partner with startups, founders, and forward-thinking companies to create digital products that feel inevitable — not just functional.</p>
+          <p class="about__body">From Kampala to the world, we bring an outsider's hunger and an insider's craft to every project we take on.</p>
+          <a href="#contact" class="btn btn--primary">Work With Us</a>
+          <div class="about__stats">
+            <div class="stat">
+              <div class="stat__number">40+</div>
+              <div class="stat__label">Projects Delivered</div>
+            </div>
+            <div class="stat">
+              <div class="stat__number">18</div>
+              <div class="stat__label">Happy Clients</div>
+            </div>
+            <div class="stat">
+              <div class="stat__number">100%</div>
+              <div class="stat__label">On-time Rate</div>
+            </div>
+          </div>
+        </div>
+        <div class="about__image-col">
+          <img class="about__image-main"
+            src="https://user-gen-media-assets.s3.amazonaws.com/gemini_images/7a9fc1b3-80ca-4a11-93ea-0491c2c77ece.png"
+            alt="Doxa team collaborating on digital design" width="600" height="750" loading="lazy"
+            onerror="this.src='https://picsum.photos/seed/doxa-about/600/750'; this.onerror=null;" />
+          <div class="about__image-badge">
+            <div class="badge-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <div>
+              <div class="badge-text-main">Top Rated Agency</div>
+              <div class="badge-text-sub">East Africa 2025</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="services__header fade-in">
+        <div class="section-label">What We Do</div>
+        <h2 class="section-heading">Everything your digital presence <em>needs.</em></h2>
+      </div>
+      <div class="services__grid fade-in">
+        <div class="service-card service-card--featured">
+          <div class="service-card__num">01</div>
+          <svg class="service-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          <h3 class="service-card__title">Web Design & Development</h3>
+          <p class="service-card__desc">We design and build websites that perform as beautifully as they look — from lightning-fast landing pages to complex web applications with custom CMS and API integrations.</p>
+          <div class="service-card__tags">
+            <span class="tag">UI/UX Design</span>
+            <span class="tag">React / Next.js</span>
+            <span class="tag">Webflow</span>
+            <span class="tag">CMS Integration</span>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-card__num">02</div>
+          <svg class="service-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <h3 class="service-card__title">Brand Identity</h3>
+          <p class="service-card__desc">Logos, visual systems, and brand guidelines that make your business instantly recognizable and enduringly memorable.</p>
+          <div class="service-card__tags"><span class="tag">Logo Design</span><span class="tag">Brand Strategy</span></div>
+        </div>
+        <div class="service-card">
+          <div class="service-card__num">03</div>
+          <svg class="service-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          <h3 class="service-card__title">E-Commerce</h3>
+          <p class="service-card__desc">Conversion-optimized stores on Shopify, WooCommerce, or custom stacks — with seamless payment flows including mobile money.</p>
+          <div class="service-card__tags"><span class="tag">Shopify</span><span class="tag">Mobile Money</span></div>
+        </div>
+        <div class="service-card">
+          <div class="service-card__num">04</div>
+          <svg class="service-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          <h3 class="service-card__title">Web3 & DApps</h3>
+          <p class="service-card__desc">Decentralized applications, DAO dashboards, NFT platforms, and stablecoin payment UIs — we speak blockchain natively.</p>
+          <div class="service-card__tags"><span class="tag">ICP / Motoko</span><span class="tag">DeFi UI</span></div>
+        </div>
+        <div class="service-card">
+          <div class="service-card__num">05</div>
+          <svg class="service-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <h3 class="service-card__title">SEO & Growth</h3>
+          <p class="service-card__desc">Technical SEO, content strategy, and analytics dashboards that turn your site into a compounding growth engine.</p>
+          <div class="service-card__tags"><span class="tag">Technical SEO</span><span class="tag">Analytics</span></div>
+        </div>
+        <div class="services__art">
+          <img src="https://user-gen-media-assets.s3.amazonaws.com/gemini_images/cede4481-d11f-42c1-a4ce-4d4d1b22375e.png" alt="Doxa's digital services abstract visualization" width="1200" height="260" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process">
+    <div class="container">
+      <div class="process__grid fade-in">
+        <div class="process__image">
+          <img src="https://user-gen-media-assets.s3.amazonaws.com/gemini_images/c3c6a8d6-6009-4c93-a3f4-6419e8f07c8e.png"
+            alt="Doxa design process" width="800" height="600" loading="lazy"
+            onerror="this.src='https://picsum.photos/seed/doxa-process/800/600'; this.onerror=null;" />
+        </div>
+        <div>
+          <div class="section-label">Our Process</div>
+          <h2 class="section-heading" style="margin-bottom: var(--space-8);">How we turn ideas into <em>impact.</em></h2>
+          <div class="process__steps">
+            <div class="process-step">
+              <div class="process-step__num">1</div>
+              <div>
+                <div class="process-step__title">Discovery & Strategy</div>
+                <p class="process-step__desc">We start by deeply understanding your business, audience, and goals. No assumptions — only insight-driven decisions.</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="process-step__num">2</div>
+              <div>
+                <div class="process-step__title">Design & Prototype</div>
+                <p class="process-step__desc">High-fidelity designs and interactive prototypes so you can see and feel your product before a single line of code is written.</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="process-step__num">3</div>
+              <div>
+                <div class="process-step__title">Build & Integrate</div>
+                <p class="process-step__desc">We develop with clean, maintainable code — integrating APIs, CMS, analytics, and payment systems with precision.</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <div class="process-step__num">4</div>
+              <div>
+                <div class="process-step__title">Launch & Optimize</div>
+                <p class="process-step__desc">We deploy, test across devices, monitor performance, and iterate based on real user data to maximize results.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container">
+      <div style="margin-bottom: clamp(var(--space-10), 4vw, var(--space-16));" class="fade-in">
+        <div class="section-label">Testimonials</div>
+        <h2 class="section-heading">Words from <em>real</em> clients.</h2>
+      </div>
+      <div class="testimonials__grid fade-in">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-card__quote">"Doxa delivered a website that felt like it came from a top London studio — except faster, more responsive, and within our budget. World-class."</p>
+          <div class="testi-card__author">
+            <div class="testi-avatar">AM</div>
+            <div><div class="testi-name">Amara Mensah</div><div class="testi-role">CEO, GrowthBridge Africa</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-card__quote">"We came with a vague idea and Doxa turned it into a complete brand and digital product in 6 weeks. The attention to detail is unmatched in East Africa."</p>
+          <div class="testi-card__author">
+            <div class="testi-avatar">JK</div>
+            <div><div class="testi-name">James Kigozi</div><div class="testi-role">Founder, Kibo Commerce</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-card__quote">"Their Web3 expertise is rare — they understood our DeFi product on day one and built a UI that even non-crypto users navigate with ease."</p>
+          <div class="testi-card__author">
+            <div class="testi-avatar">SR</div>
+            <div><div class="testi-name">Sofia Reyes</div><div class="testi-role">CTO, ChainVault Protocol</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="contact" class="cta-section">
+    <div class="container--narrow">
+      <div class="section-label" style="justify-content:center;">Start a Project</div>
+      <h2 class="section-heading">Ready to build something <em>great?</em></h2>
+      <p>Tell us about your project and we'll get back to you within 24 hours. No commitment — just a conversation.</p>
+      <div class="cta-actions">
+        <a href="mailto:doxafoundationinternational@gmail.com" class="btn btn--primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          doxafoundationinternational@gmail.com
+        </a>
+        <a href="https://wa.me/256700671613" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+      </div>
+      <p style="margin-top: var(--space-8); font-size: var(--text-xs); color: var(--color-text-faint);">Kampala, Uganda · Available Worldwide</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <img src="https://user-gen-media-assets.s3.amazonaws.com/gemini_images/0609d9e4-f626-40e3-a2f8-c3c73a4586ec.png"
+            alt="Doxa Digital Agency" width="160" height="40" loading="lazy" />
+        </div>
+        <p>An independent digital agency building bold web experiences from Kampala to the world.</p>
+        <div class="footer__social">
+          <a href="#" class="social-link" aria-label="Twitter/X">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Web Design</a></li>
+          <li><a href="#services">Development</a></li>
+          <li><a href="#services">Branding</a></li>
+          <li><a href="#services">E-Commerce</a></li>
+          <li><a href="#services">Web3 & DApps</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          
+          <li><a href="#process">Process</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:doxafoundationinternational@gmail.com">doxafoundationinternational@gmail.com</a></li>
+          <li><a href="#contact">Kampala, Uganda</a></li>
+          <li><a href="#contact">Available Worldwide</a></li>
+        </ul>      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Doxa Digital Agency. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
